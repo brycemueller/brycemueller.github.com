@@ -1,2 +1,4 @@
 name: Bryce Mueller | Software Engineer
 markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title
