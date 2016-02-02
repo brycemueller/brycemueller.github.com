@@ -11,15 +11,22 @@ footer {
     text-align: center;
 }
 
+header {
+    background-color: #111;
+}
+
 header h1 {
     text-align: center;
     margin-bottom: 0;
+    color: white;
 }
 
 header h2 {
     text-align: center;
     font-size: 1.4em;
+    color: white;
 }
+
 .social h3 {
     text-align: center;
 }
@@ -69,4 +76,8 @@ img.profilePic {
 
 .social {
     background-color: #1EAEDB;
+}
+
+.social a{
+    vertical-align: middle;
 }
