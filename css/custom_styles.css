@@ -3,6 +3,7 @@ html {
 }
 
 body {
+    margin-top: 20px;
     font-family: 'Open Sans', Verdana, sans-serif;
 }
 
@@ -46,7 +47,7 @@ img {
 }
 
 img.profilePic {
-    max-width: 60%;
+    max-width: 75%;
     vertical-align: middle;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
