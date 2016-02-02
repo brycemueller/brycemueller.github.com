@@ -46,7 +46,8 @@ img {
 }
 
 img.profilePic {
-    max-width: 80%;
+    max-width: 60%;
+    vertical-align: middle;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
