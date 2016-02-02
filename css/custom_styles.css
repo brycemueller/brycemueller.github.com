@@ -7,8 +7,21 @@ body {
     font-family: 'Open Sans', Verdana, sans-serif;
 }
 
-h1 {
-    text-align: center
+footer {
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+header h2 {
+    text-align: center;
+    font-size: 1.4em;
+}
+.social h3 {
+    text-align: center;
 }
 
 nav ul{
@@ -47,9 +60,14 @@ img {
 }
 
 img.profilePic {
-    max-width: 75%;
+    max-width: 80%;
     vertical-align: middle;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
+}
+
+.social {
+    background-color: #1EAEDB;
+    opacity: 0.5;
 }

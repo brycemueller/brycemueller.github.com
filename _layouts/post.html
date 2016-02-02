@@ -1,9 +1,47 @@
----
-layout: default
----
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!---Page Attributes---->
+    <meta charset="utf-8">
+    <meta name="description" content="A about page and blog for Bryce Mueller; Software Engineer">
+    <meta name="author" content="Bryce Mueller">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <!---Fonts--->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+    <!---CSS---->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" href="../css/custom_styles.css">
+</head>    
+<body>
+    <header>
+        <div class="row">
+            <h1>Bryce Mueller | Software Engineer</h1>
+            <!---<img src="../assets/Logo-Full.png">--->
+        </div>
+    </header>
+    <nav class="nav">
+        <ul class="menu">
+            <li class="menu"><a href="/index.html">Home</a></li>
+            <li class="menu"><a href="../blog/index.html">Blog</a> </li>
+            <li class="menu"><a href="../about/about.html">About</a></li>
+            <li class="menu"><a href="../about/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>{{ page.title }}</h1>
+        <p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
-  {{ content }}
-</div>
+        <div class="post">
+          {{ content }}
+        </div>
+            </div><!-- /.container -->
+    <footer>
+        <div class="twelve columns">
+            <p>©Bryce Mueller. All Rights Reserved. 2016</p>
+        </div>
+    </footer>
+
+</body>
+</html>
