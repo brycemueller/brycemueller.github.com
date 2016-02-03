@@ -7,7 +7,7 @@ html {
 
 body {
     margin: 0 auto;
-    <!---padding: 2em 2em 4em;--->
+    padding: 2em 2em 4em;
     max-width: 900px;
     background-color: #fff;
     font-family: 'Open Sans', Verdana, sans-serif;
@@ -17,6 +17,7 @@ footer {
     text-align: center;
     margin-top: auto;
     background-color: #404040;
+    max-height: inherit;
 }
 
 footer p{
@@ -41,6 +42,7 @@ header h2 {
 
 blockquote { 
     font-family: 'Lora', sans-serif;
+    color: #fff;
 }
 
 nav ul{
@@ -97,4 +99,8 @@ img.profilePic {
 #quote {
     margin: auto;
     background-color: #1EAEDB;
+}
+
+#quote h4 {
+    color: #fff;
 }
