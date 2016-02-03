@@ -7,7 +7,7 @@ html {
 
 body {
     margin: 0 auto;
-    padding: 2em 2em 4em;
+    padding: 2em 2em 0em;
     max-width: 900px;
     background-color: #fff;
     font-family: 'Open Sans', Verdana, sans-serif;
