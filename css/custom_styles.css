@@ -90,7 +90,7 @@ img.profilePic {
 }
 
 .social {
-    margin-bottom: 5%;
+    margin-bottom: 1em;
 }
 
 .social img{
@@ -99,10 +99,9 @@ img.profilePic {
 
 #quote {
     background-color: #1EAEDB;
-    margin: 5%;
+    margin-bottom: 5%;
 }
 
 #quote h4 {
-    text-indent: 5em;
     color: #fff;
 }
