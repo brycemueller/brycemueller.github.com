@@ -17,7 +17,7 @@ footer {
     text-align: center;
     margin-top: 1em;
     background-color: #404040;
-    max-height: inherit;
+    max-height: 2em;
 }
 
 footer p{
@@ -45,6 +45,7 @@ blockquote {
     color: #fff;
 }
 
+<!--- Menu Bar --->
 nav ul{
     list-style-type: none;
     margin: 0;
@@ -66,7 +67,6 @@ nav li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 nav li a:hover {
     background-color: #1EAEDB;
     color: #fff;
@@ -76,6 +76,7 @@ nav.active {
     background-color: #0FA0CE;
 }
 
+<!--- Profile Picture --->
 img {
     max-height: 90%;
 }
@@ -89,7 +90,7 @@ img.profilePic {
 }
 
 .social {
-    
+    margin-bottom: 5%;
 }
 
 .social img{
@@ -98,8 +99,10 @@ img.profilePic {
 
 #quote {
     background-color: #1EAEDB;
+    margin: 5%;
 }
 
 #quote h4 {
+    text-indent: 5em;
     color: #fff;
 }
