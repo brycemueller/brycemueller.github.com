@@ -15,13 +15,13 @@ body {
 
 footer {
     text-align: center;
-    margin-top: auto;
+    margin-top: 1em;
     background-color: #404040;
     max-height: inherit;
 }
 
 footer p{
-    color: #fff;
+    color: #404040;
 }
 
 header {
@@ -97,7 +97,6 @@ img.profilePic {
 }
 
 #quote {
-    margin: auto;
     background-color: #1EAEDB;
 }
 
