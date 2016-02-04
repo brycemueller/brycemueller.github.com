@@ -85,7 +85,7 @@ img {
     max-height: 90%;
 }
 
-profilePic {
+.profilePic {
     vertical-align: middle;
     margin-left: auto;
     margin-right: auto;
@@ -95,13 +95,16 @@ profilePic {
     border-radius: 20px;
 }
 
-.social {
+#social {
     margin-bottom: 5%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #social img{
     vertical-align: middle;
     margin: auto;
+    
 }
 
 #quote {
