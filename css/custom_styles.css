@@ -108,7 +108,7 @@ img {
 }
 
 #social li {
-    display: block;
+    display: inline-block;
 }
 
 #social li a {
@@ -122,6 +122,7 @@ img {
     margin-bottom: 5%;
 }
 
-#quote h4 {
-    color: #fff;
+#quote h5 {
+    margin-left: 2%;
+    margin-top: 1%;
 }
