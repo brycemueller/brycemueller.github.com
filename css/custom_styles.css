@@ -54,7 +54,7 @@ nav ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    text-align: center
+    text-align: center;
 }
 
 nav li {
@@ -97,9 +97,24 @@ img {
 
 #social {
     margin-bottom: 5%;
+}
+
+#social ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+#social li {
     display: block;
-    margin-right: auto;
-    margin-left: auto;
+}
+
+#social li a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 #quote {
