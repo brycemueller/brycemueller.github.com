@@ -118,7 +118,7 @@ img {
     float: left;
 }
 
-#social li a:hover{
+#social li a:hover {
     background-position: bottom;
     opacity: 1;
     transition: all 0.3s linear 0s;
@@ -130,6 +130,7 @@ img {
 }
 
 #quote h5 {
+    text-align: center;
     margin-left: 2%;
     margin-top: 1%;
 }
