@@ -26,7 +26,6 @@ footer p{
 
 header {
     text-align: center;
-    margin-bottom: 5%;
 }
 
 header h1 {
@@ -44,6 +43,10 @@ header h2 {
 blockquote { 
     font-family: 'Lora', sans-serif;
     color: #fff;
+}
+
+nav {
+    margin-bottom: 1%;
 }
 
 nav ul{
@@ -96,11 +99,11 @@ img.profilePic {
 .social {
     
 }
-/*
+
 .social img{
     vertical-align: middle;
 }
-*/
+
 #social {
     margin: auto;
 
