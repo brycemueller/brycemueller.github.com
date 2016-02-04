@@ -86,7 +86,9 @@ img {
 }
 
 .profilePic {
-    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     max-width: 80%;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -95,11 +97,13 @@ img {
 
 #social {
     margin-bottom: 5%;
+    text-align: center;
 }
 
 #social img{
-    text-align: center;
-    
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #quote {
