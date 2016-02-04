@@ -87,8 +87,8 @@ img {
 
 profilePic {
     max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: inherit;
+    margin-right: inherit;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
