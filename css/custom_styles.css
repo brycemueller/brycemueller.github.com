@@ -115,6 +115,13 @@ img {
     display: block;
     padding: 14px 16px;
     text-decoration: none;
+    float: left;
+}
+
+#social li a:hover{
+    background-position: bottom;
+    opacity: 1;
+    transition: all 0.3s linear 0s;
 }
 
 #quote {
