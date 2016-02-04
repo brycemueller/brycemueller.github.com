@@ -76,6 +76,10 @@ nav.active {
     background-color: #0FA0CE;
 }
 
+#profilePic {
+    vertical-align: middle;
+}
+
 img {
     max-height: 90%;
 }
@@ -91,8 +95,12 @@ img.profilePic {
 .social {
     
 }
-
+/*
 .social img{
+    vertical-align: middle;
+}
+*/
+#social {
     vertical-align: middle;
 }
 
