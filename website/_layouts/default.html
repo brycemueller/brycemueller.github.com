@@ -11,9 +11,9 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
     <!---CSS---->
-    <link rel="stylesheet" href="{{ site.url}}/css/normalize.css">
-    <link rel="stylesheet" href="{{ site.url}}/css/skeleton.css">
-    <link rel="stylesheet" href="{{ site.url}}/css/custom_styles.css">
+    <link rel="stylesheet" href="{{ site.url}}/css/normalize.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="{{ site.url}}/css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="{{ site.url}}/css/custom_styles.css" rel="stylesheet" media="screen">
 </head>    
 <body>
     <header>
@@ -36,10 +36,13 @@
 
     </div><!-- /.container -->
     <footer>
-        <div class="twelve columns">
-            <p class="legal">©2016 Bryce Mueller. All Rights Reserved.</p>
+        <div class="row-fluid">
+            <div class="span12">
+                <p class="legal">©2016 Bryce Mueller. All Rights Reserved.</p>
+            </div>
         </div>
     </footer>
-
+    <!---Scripts--->
+    <script src="{{ site.url}}/bootstrap.js"></script>
 </body>
 </html>
