@@ -12,11 +12,12 @@ body {
     background-color: #fff;
     font-family: 'Open Sans', Verdana, sans-serif;
 }
-
+/*
 .container {
     max-width: 1000px;
     padding: 0 10px;
 }
+*/
 
 footer {
     text-align: center;
@@ -29,18 +30,6 @@ footer p{
     color: #404040;
 }
 
-header {
-    text-align: center;
-}
-
-header h1 {
-    margin-bottom: 0;
-}
-
-header h2 {
-    font-size: 1.4em;
-}
-
 .social h3 {
     text-align: center;
 }
@@ -50,10 +39,7 @@ blockquote {
     color: #fff;
 }
 
-nav {
-    margin-bottom: 1%;
-}
-
+/*
 nav ul{
     list-style-type: none;
     margin: 0;
@@ -73,9 +59,10 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
+} */
 
 /* Change the link color to #111 (black) on hover */
+/*
 nav li a:hover {
     background-color: #1EAEDB;
     color: #fff;
@@ -83,7 +70,7 @@ nav li a:hover {
 
 nav.active {
     background-color: #0FA0CE;
-}
+} */
 
 
 img {
