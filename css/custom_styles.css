@@ -1,42 +1,68 @@
 html {
-    background-color: #404040;
-    background-image: -webkit-linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
-    background-image: linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
-    -webkit-font-smoothing: antialiased;
+    background-color: #f7f7f7;
 }
 
 body {
-    margin: 0 auto;
-    padding: 0em 2em 2em 2em;
-    max-width: 900px;
+    padding-top: 50px;
     background-color: #fff;
     font-family: 'Open Sans', Verdana, sans-serif;
 }
 
-.container {
-    max-width: 1000px;
+.navbar ul.nav a:hover {
+    color: #fff !important;
+    background-color: #0f0f0f !important;
+
 }
 
+img {
+    max-height: 90%;
+}
 
 footer {
-    text-align: center;
-    margin-top: 1em;
-    background-color: #404040;
-    max-height: inherit;
+    padding-bottom: 10px;
 }
 
-footer p{
-    color: #404040;
+#footer ul {
+    text-align: center;
+    display: inline-block;
+    position: relative;
 }
 
-.social h3 {
-    text-align: center;
+.profilePic {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    max-width: 80%;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
 }
+
 
 blockquote { 
     font-family: 'Lora', sans-serif;
-    color: #fff;
 }
+
+/*ul {*/
+    /*text-align: center;*/
+    /*margin: 0 auto;*/
+    /*position: relative;*/
+
+/*li {*/
+    /*clear: both;*/
+    /*display: inline-block;*/
+    /*padding: 15px;*/
+
+/*a {*/
+    /*color: $c-text-white;*/
+    /*font: $font-family-base;*/
+    /*font-size: 20px;*/
+    /*text-transform: uppercase;*/
+
+/*&:hover {*/
+     /*color: $c-text-orange;*/
 
 /*
 nav ul{
@@ -71,21 +97,6 @@ nav.active {
     background-color: #0FA0CE;
 } */
 
-
-img {
-    max-height: 90%;
-}
-
-.profilePic {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 90%;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-}
-
 #social {
     text-align: center;
 }
@@ -109,18 +120,18 @@ img {
     float: left;
 }
 
-#social li a:hover {
-    background-position: bottom;
-    opacity: 1;
-    transition: all 0.3s linear 0s;
+.social h3 {
+    text-align: center;
+}
+
+blockquote {
+    font-size: 1em;
 }
 
 #quote {
-    background-color: #1EAEDB;
-    margin-bottom: 5%;
-}
-
-#quote h5 {
-    margin-left: 2%;
-    margin-top: 1%;
+    /*color: #fff;*/
+    /*background-color: #337ab7;*/
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
 }
