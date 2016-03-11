@@ -7,22 +7,24 @@ title: Bryce Mueller | Contact
 <div class="row">
     <div class="col-sm-6 col-sm-offset-3">
         <h3>Send me a message</h3>
-        <form role="form" id="contactForm"><!--<form name="contactform" method="post" action="{{ site.url }}/php/process.php" class="form-horizontal" role="form">-->
+        <form id="contactform" action="http://formspree.io/info@brycemueller.com" method="post">
         <div class="row">
             <div class="form-group col-sm-6">
                 <label for="inputName" class="h4">Name</label>
-                <input type="text" class="form-control" id="inputName" name="inputName" placeholder="Enter Name">
+                <input type="text" class="form-control" id="inputName" name="name" placeholder="Enter Name">
                 <div class="help-block with-errors"></div>
             </div>
             <div class="form-group col-sm-6">
-                <label for="inputEmail" class="h4">Email</label>
-                <input type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="Enter Email">
+                <label for="email" class="h4">Email</label>
+                <input type="email" class="form-control" id="email" name="_replyto" placeholder="Enter Email">
+                <input type="hidden" name="_subject" value="Website contact" />
+                <input type="hidden" name="_next" value="brycemueller.com" />
                 <div class="help-block with-errors"></div>
             </div>
         </div>
         <div class="form-group">
             <label for="inputMessage" class="h4 ">Message</label>
-            <textarea class="form-control" rows="5" id="inputMessage" name="inputMessage" placeholder="Your message..."></textarea>
+            <textarea class="form-control" rows="5" id="inputMessage" name="message" placeholder="Your message..."></textarea>
             <div class="help-block with-errors"></div>
         </div>
         <button type="submit" id="form-submit" class="btn btn-success btn-lg pull-right ">Submit</button>
