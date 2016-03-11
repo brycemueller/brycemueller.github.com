@@ -1,12 +1,28 @@
 html {
     background-color: #f7f7f7;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
     padding-top: 50px;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
     background-color: #fff;
     font-family: 'Open Sans', Verdana, sans-serif;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 100px;
+}
+
+#footer ul {
+    text-align: center;
+    display: inline-block;
+    position: relative;
 }
 
 .navbar ul.nav a:hover {
@@ -17,20 +33,6 @@ body {
 
 img {
     max-height: 90%;
-}
-
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    /* Set the fixed height of the footer here */
-    height: 60px;
-}
-
-#footer ul {
-    text-align: center;
-    display: inline-block;
-    position: relative;
 }
 
 .profilePic {
