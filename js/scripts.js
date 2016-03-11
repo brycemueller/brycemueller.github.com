@@ -12,7 +12,6 @@
 
 $("#contactForm").submit(function(event){
     // cancels the form submission
-    alert("JS worked");
     event.preventDefault();
     submitForm();
 });
@@ -22,10 +21,11 @@ function submitForm(){
     var name = $("#name").val();
     var email = $("#email").val();
     var message = $("#message").val();
+    alert(name);
 
     $.ajax({
         type: "POST",
-        url: "brycemueller.github.com/php/process.php",
+        url: "brycemueller.com/php/process.php",
         data: "$name=" + name + "&email=" + email + "&message=" + message,
         success : function(text){
             if (text == "success"){
