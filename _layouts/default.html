@@ -12,7 +12,7 @@
     <!---CSS---->
     <!---<link rel="stylesheet" href="{{ site.url}}/css/normalize.css" rel="stylesheet" media="screen">--->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="brycemueller.github.com/css/custom_styles.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="{{ site.url }}/css/custom_styles.css" rel="stylesheet" media="screen">
 </head>
 <body>
 
@@ -30,9 +30,9 @@
                 </button>
             </div>
             <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
-                <li role="presentation"><a href="/index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-                <li role="presentation"><a href="/blog/index.html"><span class="glyphicon glyphicon-book"></span> Blog</a> </li>
-                <li role="presentation"><a href="/about/contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+                <li role="presentation"><a href="{{ site.url }}/index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                <li role="presentation"><a href="{{ site.url }}/blog/index.html"><span class="glyphicon glyphicon-book"></span> Blog</a> </li>
+                <li role="presentation"><a href="{{ site.url }}/about/contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
             </ul>
         </div>
     </div>
@@ -46,9 +46,9 @@
         <div class="row">
             <div class="col-md-12" style="text-align: center" id="footer">
                 <ul class="nav nav-pills center">
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="/blog/index.html">Blog</a> </li>
-                    <li><a href="/about/contact.php">Contact</a></li>
+                    <li><a href="{{ site.url }}/index.html">Home</a></li>
+                    <li><a href="{{ site.url }}/blog/index.html">Blog</a> </li>
+                    <li><a href="{{ site.url }}/about/contact.php">Contact</a></li>
                 </ul>
                 <p>Made with <span class="glyphicon glyphicon-heart"></span> using Bootstrap & Jekyll<br>
                     &copy 2016 Bryce Mueller. All Rights Reserved.</p>
@@ -59,6 +59,6 @@
 <!---Scripts--->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/js/scripts.js"></script>
+<script type="text/javascript" src="{{ site.url }}/js/scripts.js"></script>
 </body>
 </html>
