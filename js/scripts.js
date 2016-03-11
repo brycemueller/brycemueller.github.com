@@ -1,6 +1,6 @@
 $("#contactForm").validator().on("submit", function (event) {
     if (event.isDefaultPrevented()) {
-        // handle the invalid form...
+        formError();
     } else {
         // everything looks good!
         event.preventDefault();
@@ -17,7 +17,7 @@ function submitForm(){
     $.ajax({
         type: "POST",
         url: "brycemueller.github.com/php/process.php",
-        data: "name=" + name + "&email=" + email + "&message=" + message,
+        data: "$name=" + name + "&email=" + email + "&message=" + message,
         success : function(text){
             if (text == "success"){
                 formSuccess();
@@ -29,3 +29,7 @@ function formSuccess(){
     $( "#msgSubmit" ).removeClass( "hidden" );
 }
 
+function formError(){
+    $("#contactForm")[0].reset();
+    submitMSG(true, "Message Failed!")
+}
