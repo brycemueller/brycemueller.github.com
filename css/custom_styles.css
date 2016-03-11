@@ -4,6 +4,7 @@ html {
 
 body {
     padding-top: 50px;
+    margin-bottom: 60px;
     background-color: #fff;
     font-family: 'Open Sans', Verdana, sans-serif;
 }
@@ -18,8 +19,12 @@ img {
     max-height: 90%;
 }
 
-footer {
-    position: fixed;
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
 }
 
 #footer ul {
