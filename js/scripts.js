@@ -1,10 +1,12 @@
 $("#contactForm").validator().on("submit", function (event) {
     if (event.isDefaultPrevented()) {
         formError();
+        alert("Didn't work");
     } else {
         // everything looks good!
         event.preventDefault();
         submitForm();
+        alert("JS worked");
     }
 });
 
