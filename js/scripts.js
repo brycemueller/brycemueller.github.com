@@ -1,13 +1,20 @@
-$("#contactForm").validator().on("submit", function (event) {
-    if (event.isDefaultPrevented()) {
-        formError();
-        alert("Didn't work");
-    } else {
-        // everything looks good!
-        event.preventDefault();
-        submitForm();
-        alert("JS worked");
-    }
+//$("#contactForm").validator().on("submit", function (event) {
+//    if (event.isDefaultPrevented()) {
+//        formError();
+//        alert("Didn't work");
+//    } else {
+//        // everything looks good!
+//        event.preventDefault();
+//        submitForm();
+//        alert("JS worked");
+//    }
+//});
+
+$("#contactForm").submit(function(event){
+    // cancels the form submission
+    alert("JS worked");
+    event.preventDefault();
+    submitForm();
 });
 
 function submitForm(){
