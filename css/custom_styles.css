@@ -148,3 +148,7 @@ blockquote {
     -moz-border-radius: 6px;
     border-radius: 6px;
 }
+
+.alert{
+    display:none;
+}
