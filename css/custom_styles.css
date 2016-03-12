@@ -40,6 +40,9 @@ hr {
 #splash {
     background-image: url("../assets/chip-background.jpg");
     background-color: #f7f7f7;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Chrome, Safari, Opera */
+    transform: scale(1.1);
     background-repeat: no-repeat;
     background-size: cover;
     color: #ffffff;
