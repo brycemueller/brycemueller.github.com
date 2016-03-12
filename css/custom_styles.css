@@ -46,6 +46,12 @@ hr {
     color: #ffffff;
 }
 
+#splash h3,p {
+    -webkit-filter: blur(0px); /* Chrome, Safari, Opera */
+    filter: blur(0px);
+    color: #ffffff;
+}
+
 /*.ui.segment.backgroundEd {*/
     /*background-image:url('fgcu_campus.jpg');*/
     /*background-repeat: no-repeat;*/
