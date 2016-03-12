@@ -37,10 +37,11 @@ hr {
 
 }
 
-.jumbotron #splash {
-    background-image:url('../assets/chip-background.jpg');
+.jumbotron {
+    background-image: url("../assets/chip-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    color: #ffffff;
 }
 
 /*.ui.segment.backgroundEd {*/
