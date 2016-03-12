@@ -1,9 +1,5 @@
 
-$("#contactForm").submit(function(event){
-    event.preventDefault();
-    formSuccess();
-});
+$("#form-submit").click(function(){
 
-function formSuccess(){
-    $( "#msgSubmit" ).removeClass( "hidden" );
-}
+    $(".alert").hide().show('medium');
+});
