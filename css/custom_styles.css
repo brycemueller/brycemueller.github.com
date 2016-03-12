@@ -37,8 +37,10 @@ hr {
 
 }
 
-.jumbotron {
+#splash {
     background-image: url("../assets/chip-background.jpg");
+    -webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+    filter: blur(2px);
     background-repeat: no-repeat;
     background-size: cover;
     color: #ffffff;
