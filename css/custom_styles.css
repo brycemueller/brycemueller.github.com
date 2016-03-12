@@ -39,17 +39,20 @@ hr {
 
 #splash {
     background-image: url("../assets/chip-background.jpg");
+    background-color: #0f0f0f;
     -webkit-filter: blur(3px); /* Chrome, Safari, Opera */
     filter: blur(3px);
     background-repeat: no-repeat;
     background-size: cover;
-    color: #ffffff;
 }
 
-h3,p #splash{
-    -webkit-filter: blur(0px); /* Chrome, Safari, Opera */
-    filter: blur(0px);
+#intro {
     color: #ffffff;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(13px);
+    filter: blur(0px);
 }
 
 /*.ui.segment.backgroundEd {*/
