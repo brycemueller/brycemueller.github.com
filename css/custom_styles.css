@@ -119,6 +119,7 @@ blockquote {
  */
 
 .blog-header {
+    font-size: 1.2em;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -175,7 +176,7 @@ blockquote {
 }
 .blog-post-title {
     margin-bottom: 5px;
-    font-size: 40px;
+    font-size: 1.2em;
 }
 .blog-post-meta {
     margin-bottom: 20px;
