@@ -2,10 +2,24 @@
 layout: default
 title: Bryce Mueller | Blog
 ---
-<h2>Blog</h2>
-<ul class="posts">
 
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8 blog-main">
+            <h2>Blog</h2>
+            <ul class="posts">
+
+                {% for post in site.posts %}
+                <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="col-sm-8 col-sm-offset-1 blog-sidebar">
+            <h4>Archives</h4>
+            <ol>
+                <li><a href="#">March 2016</a></li>
+                <li><a href="#">February 2016</a></li>
+            </ol>
+        </div>
+    </div>
+</div>
