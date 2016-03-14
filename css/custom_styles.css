@@ -40,9 +40,6 @@ hr {
 #splash {
     background-image: url("../assets/chip-background.jpg");
     background-color: #f7f7f7;
-    /*-ms-transform: scale(1.1); !* IE 9 *!*/
-    /*-webkit-transform: scale(1.1); !* Chrome, Safari, Opera *!*/
-    /*transform: scale(1.1);*/
     background-repeat: no-repeat;
     background-size: cover;
     color: #ffffff;
@@ -77,58 +74,6 @@ img {
 blockquote { 
     font-family: 'Lora', sans-serif;
 }
-
-/*ul {*/
-    /*text-align: center;*/
-    /*margin: 0 auto;*/
-    /*position: relative;*/
-
-/*li {*/
-    /*clear: both;*/
-    /*display: inline-block;*/
-    /*padding: 15px;*/
-
-/*a {*/
-    /*color: $c-text-white;*/
-    /*font: $font-family-base;*/
-    /*font-size: 20px;*/
-    /*text-transform: uppercase;*/
-
-/*&:hover {*/
-     /*color: $c-text-orange;*/
-
-/*
-nav ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    text-align: center;
-}
-
-nav li {
-    display: inline-block;
-    
-}
-
-nav li a {
-    display: block;
-    color: #111;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-} */
-
-/* Change the link color to #111 (black) on hover */
-/*
-nav li a:hover {
-    background-color: #1EAEDB;
-    color: #fff;
-}
-
-nav.active {
-    background-color: #0FA0CE;
-} */
 
 #social {
     text-align: center;
