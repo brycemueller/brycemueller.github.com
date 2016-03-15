@@ -61,7 +61,8 @@ img {
 .profilePic {
     display: block;
     float: right;
-    max-height: 5em;
+    vertical-align: top;
+    max-height: 200px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
