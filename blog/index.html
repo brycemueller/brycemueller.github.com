@@ -12,11 +12,11 @@ title: Bryce Mueller | Blog
             <ul class="posts list-unstyled">
 
                 {% for post in site.posts %}
+                <hr>
                 <li><a class="blog-post-title" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
                     <p class="blog-post-meta">{{ post.date | date_to_string }}</p>
                     {{ post.content }}
                 </li>
-                <hr>
                 {% endfor %}
             </ul>
         </div>
