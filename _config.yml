@@ -5,6 +5,7 @@ permalink: /blog/:year/:month/:day/:title
 
 url: "www.brycemueller.com"
 
+
 # Set the Sass partials directory, as we're using @imports
 sass:
   style: :expanded # You might prefer to minify using :compressed

@@ -15,7 +15,9 @@ title: Bryce Mueller | Blog
                 <hr>
                 <li><a class="blog-post-title" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
                     <p class="blog-post-meta">{{ post.date | date_to_string }}</p>
-                    {{ post.content }}
+                    {{ post.excerpt }}
+                    <p><a href="{{ post.url }}">Read More <i class="fa fa-angle-right fa-lg"></i></a></p>
+
                 </li>
                 {% endfor %}
             </ul>
@@ -27,6 +29,9 @@ title: Bryce Mueller | Blog
                     <li><a href="#">March 2016</a></li>
                     <li><a href="#">February 2016</a></li>
                 </ol>
+            </div>
+            <div class="sidebar-module">
+                <a class="twitter-timeline" href="https://twitter.com/BryceMueller" data-widget-id="713519826128519168">Tweets by @BryceMueller</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
             </div>
         </div>
     </div>
